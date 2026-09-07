@@ -111,6 +111,8 @@ nr2gtfs <- function(path_in,
   timetables$agency <- agency
   timetables$stops <- stops
 
+  timetables$trips$bikes_allowed <- 1 #force bikes allowed to 1 so open trip planner works
+
   # Build Shapes
   if (shapes) {
     message("Shapes are not yet supported")

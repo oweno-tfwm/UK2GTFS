@@ -91,7 +91,8 @@ gtfs_read <- function(path){
         service_id = "character",
         block_id = "character",
         shape_id = "character",
-        wheelchair_accessible = "integer" #enum value 2 is valid but rarely seen outside the spec document
+        wheelchair_accessible = "integer", #enum value 2 is valid but rarely seen outside the spec document
+        bikes_allowed = "integer" #adding this in to force OTP to include bike when routeing.
       ),
       showProgress = FALSE,
       sep=',',

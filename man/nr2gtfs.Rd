@@ -58,7 +58,7 @@ agency.txt file. Therefore this data is provided with the package. You can
 also pass your own data frame of agency information.
 }
 \seealso{
-Other main: 
-\code{\link{atoc2gtfs}()}
+Other main:
+\code{\link[=atoc2gtfs]{atoc2gtfs()}}
 }
 \concept{main}

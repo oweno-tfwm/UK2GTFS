@@ -59,7 +59,7 @@ Locations
   also pass your own data frame of agency information.
 }
 \seealso{
-Other main: 
-\code{\link{nr2gtfs}()}
+Other main:
+\code{\link[=nr2gtfs]{nr2gtfs()}}
 }
 \concept{main}
